@@ -1,42 +1,42 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* styles/globals.css or in _app.js if using styled-jsx */
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Noto Sans Thin;
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* [data-theme="dark"] {
+  --bg-color: #1e1e1e;
+  --text-color: #ffffff;
+  --card-bg: #2c2c2c;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+[data-theme="light"] {
+  --bg-color: #f2f5f7;
+  --text-color: #000000;
+  --card-bg: #f9f9f9;
+} */
+:root {
+  color-scheme: light dark;
+
+  --bg-color: #f2f5f7;
+  --text-color: #000000;
+  --card-bg: #f9f9f9;
+  --input-bg: #ffffff;
+  --input-text: #333333;
+
+  --button-text: #ffffff;
+  --highlight: #dd2f19;
+
+  --bg-dark-color: #1e1e1e;
+  --text-dark-color: #ffffff;
+  --card-dark-bg: #2c2c2c;
+  --button-text-dark: #ffffff;
 }
