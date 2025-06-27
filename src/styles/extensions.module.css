@@ -175,6 +175,21 @@ input:checked + .slider:before {
   color: var(--text-color);
 }
 
+.modalContainer {
+  border: 1px solid #ccc;
+  background-color: #aaa;
+  border-radius: 12px;
+  padding: 3rem;
+  width: 258px;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeButton {
+  cursor: pointer;
+  background-color: #ccc;
+  border: 1px solid #aaa;
+}
 .inputText {
   background-color: var(--input-bg);
   color: var(--input-text);
